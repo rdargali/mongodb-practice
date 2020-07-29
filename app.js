@@ -70,3 +70,9 @@ mongoose.connect(
 //     console.log(result);
 //   }
 // );
+
+//*delete record with uuid*
+
+// Book.findOneAndDelete({ _id: "5f20f606f336d6a124cd4a1d" }, (err, result) => {
+//   console.log(result);
+// });
