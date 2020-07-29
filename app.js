@@ -16,16 +16,16 @@ mongoose.connect(
   }
 );
 
-// const book = new Book({
-//   title: "Introduction to Mongo",
-//   isbn: "sdffsd33",
-//   author: "Rawand",
-// });
+const book = new Book({
+  title: "Introduction to Mongo",
+  isbn: "sdffsd33",
+  author: "Rawand",
+});
 
-// book.save((err, newBook) => {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log(newBook);
-//   }
-// });
+book.save((err, newBook) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(newBook);
+  }
+});
