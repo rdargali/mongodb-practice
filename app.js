@@ -17,18 +17,18 @@ mongoose.connect(
   }
 );
 
-//shell commands:
+//*shell commands*
 // "mongo" - open mongo cli,
 // "show dbs" - show databases.
 // "use <name of database>" - jump into database
 // "show collections" - show schema or models of db
 // "db.<name of model/collection>.find()" - shows entries inside collection
 
-//insert book into db
+// *insert book into db*
 // const book = new Book({
-//   title: "Introduction to Mongo",
-//   isbn: "sdffsd33",
-//   author: "Rawand",
+//   title: "trying something new ",
+//   isbn: "new324",
+//   author: "Nujeen",
 // });
 
 // book.save((err, newBook) => {
@@ -37,4 +37,19 @@ mongoose.connect(
 //   } else {
 //     console.log(newBook);
 //   }
+// });
+
+//*empty object as first parameter will find all*
+// Book.find({}, (err, books) => {
+//     console.log(books);
+//   });
+
+//*find by id*
+// Book.findById("5f20f8a3c7065da203636119", (err, book) => {
+//   console.log(book);
+// });
+
+// //*find by key*
+// Book.findOne({ author: "Rawand" }, (err, book) => {
+//   console.log(book);
 // });
