@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rdargali/mongodb-practice/issues"
   },
-  "homepage": "https://github.com/rdargali/mongodb-practice#readme"
+  "homepage": "https://github.com/rdargali/mongodb-practice#readme",
+  "dependencies": {
+    "mongoose": "^5.9.26"
+  }
 }
