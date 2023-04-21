@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/rdargali/mongodb-practice#readme",
   "dependencies": {
-    "mongoose": "^5.9.26"
+    "mongoose": "^5.13.17"
   }
 }
